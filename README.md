@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este repositório contém relatórios de incidentes de segurança cibernética criados para atividades de análise de tráfego de rede. Cada relatório documenta um tipo específico de incidente, abordando desde a análise dos logs de rede até as investigações e possíveis causas. Esses relatórios podem ser usados como referência para entender o formato e o conteúdo esperados em relatórios de segurança cibernética.
+Este repositório contém uma coleção de relatórios de incidentes de segurança cibernética elaborados para atividades de análise de tráfego de rede e resposta a incidentes. Cada relatório documenta um tipo específico de incidente e cobre desde a análise dos logs de rede até a investigação de possíveis causas e a resposta aplicada. Esses relatórios podem ser usados como referência para a formatação e o conteúdo esperados em documentos de segurança cibernética.
 
 ## Conteúdo
 
@@ -14,5 +14,19 @@ Este repositório contém relatórios de incidentes de segurança cibernética c
 - **Descrição:** Relatório de análise de um ataque DoS SYN, também conhecido como inundação de SYN, que visa esgotar os recursos do servidor ao sobrecarregá-lo com solicitações de conexão incompletas.
 - **Conteúdo:** Documenta a análise do ataque, incluindo a identificação de padrões incomuns de solicitação SYN e os impactos no desempenho do servidor. Explora as ações tomadas pela equipe de TI para mitigar o ataque e restaurar a operação normal da rede.
 
+### 3. Relatório de Incidente de Segurança Cibernética: Ataque de Força Bruta
+- **Descrição:** Documento que descreve um ataque de força bruta direcionado ao sistema de autenticação, no qual um invasor tenta obter acesso por meio de tentativas exaustivas de combinações de usuário e senha.
+- **Conteúdo:** Fornece uma análise dos logs de autenticação e detalha as ações tomadas para fortalecer o sistema contra futuros ataques de força bruta, como a implementação de bloqueios temporários e autenticação multifator (MFA).
+
+### 4. Relatório de Hardening de Rede
+
+- **Descrição:** Este relatório aborda as práticas de hardening (fortalecimento) da rede, detalhando as configurações e políticas implementadas para reduzir vulnerabilidades e proteger contra ameaças comuns.
+- **Conteúdo:** Inclui uma descrição das políticas de firewall, segmentação de rede, desativação de serviços desnecessários e outras práticas de segurança aplicadas para aumentar a resiliência da rede.
+
+### Relatório Final: Incidentes e Conformidade com as Normas NIST
+
+- **Descrição:** Aborda os incidentes documentados neste repositório com base nas diretrizes do NIST (National Institute of Standards and Technology). Este relatório final fornece uma análise integrada das ações tomadas e discute como elas se alinham com o padrão NIST de resposta a incidentes.
+- **Conteúdo:** Contém uma visão geral das fases de identificação, proteção, detecção, resposta e recuperação de incidentes, conforme as diretrizes NIST, aplicadas aos casos documentados.
+
 ## Uso
-Esses relatórios são exemplos de boas práticas em documentação de incidentes de segurança cibernética, oferecendo insights sobre os métodos de análise de tráfego de rede e resposta a incidentes.
+Esses relatórios são exemplos de boas práticas em documentação de incidentes de segurança cibernética. Eles oferecem insights sobre métodos de análise de tráfego de rede e as respostas aplicadas a cada tipo de incidente, conforme as recomendações do NIST e outras práticas de segurança.
